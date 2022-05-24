@@ -1,14 +1,18 @@
 #multiple turtle demo
 import turtle
+import easygui_qt as easy
 
 #setup window
 window = turtle.Screen()
 window.bgcolor("lightgreen")
 
+#figure out pensize
+obii_pensize = easy.get_integer("How large should the pen be? ")
+
 #setup turtles
 obii = turtle.Turtle()
 obii.shape("turtle")
-obii.pensize(4)
+obii.pensize(obii_pensize)
 obii.color("pink")
 
 david = turtle.Turtle()
