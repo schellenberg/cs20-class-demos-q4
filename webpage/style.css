@@ -1,0 +1,37 @@
+body {
+    background-color: #8ECAE6;
+    /* background-image: url("fish.jpg"); */
+}
+
+h1 {
+    text-align: center;
+    background-color: #023047;
+    color: #FFB703;
+    border-style: dashed;
+    padding: 75px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 250%;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FB8500;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
