@@ -12,6 +12,7 @@ h1 {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 250%;
+    margin-top: 75px;
 }
 
 nav ul {
@@ -34,4 +35,9 @@ nav ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #023047;
+    color: #FFB703;
 }
