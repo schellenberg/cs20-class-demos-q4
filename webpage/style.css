@@ -23,6 +23,13 @@ h1 {
     font-size: 2em;
 }
 
+#content {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ffb80338;
+    padding: 20px;
+}
+
 nav ul {
     list-style-type: none;
     position: fixed;
