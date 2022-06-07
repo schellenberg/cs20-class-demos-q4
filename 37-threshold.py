@@ -30,4 +30,4 @@ for x in range(width):
         img.set_pixel(x, y, new_pixel)
     img.draw(canvas)
     
-    
+canvas.exit_on_click()
