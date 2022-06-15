@@ -33,13 +33,13 @@ def draw_l_system(some_turtle, instructions, angle, distance):
 window = turtle.Screen()
 dave = turtle.Turtle()
 dave.speed(0)
+window.tracer(2)
 
 #go to bottom left
 dave.penup()
-dave.goto(-250, -200)
+dave.goto(-475, -450)
 dave.pendown()
 
-instructions = create_l_system(6, 'FXF--FF--FF')
+instructions = create_l_system(8, 'FXF--FF--FF')
 draw_l_system(dave, instructions, 60, 2)
-    
-    
+#print(instructions)
